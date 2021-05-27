@@ -1,0 +1,23 @@
+
+.pageHeader {
+    line-height: 60px;
+    margin: 0 auto;
+    display: block;
+    text-align:center;
+}
+
+.splitScreen {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-pane {
+    width: 400px;
+}
+
+.right-pane {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align:center;
+}
