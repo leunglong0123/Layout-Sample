@@ -1,9 +1,8 @@
 {
-  "name": "bl-gatsby-site",
+  "name": "my-gatsby-site",
   "version": "1.0.0",
   "private": true,
-  "description": "BL Gatsby Site",
-  "author": "KSamLai",
+  "description": "My Gatsby Site",
   "keywords": [
     "gatsby"
   ],
@@ -15,7 +14,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "antd": "^4.16.0",
     "gatsby": "^3.4.1",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-less": "^5.6.0",
+    "gatsby-plugin-netlify-cms": "^5.5.0",
+    "netlify-cms-app": "^2.15.11",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
